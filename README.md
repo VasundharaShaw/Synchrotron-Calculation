@@ -18,7 +18,7 @@ It builds upon **CRPropa3** for particle propagation and uses analytical synchro
 - Numerical integration routines (SciPy, Numba acceleration)  
 - Healpy-based sky projections  
 - Modular constants (`physics_constants.py`) and reusable imports (`Imports_python.py`)  
-- Test scripts for example calculations (`Test_Synchrotron.py`)  
+- Test scripts for example calculations (`Synchrotron.py`)  
 
 ---
 
