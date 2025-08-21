@@ -64,3 +64,10 @@ pip install numpy==1.23.5 scipy==1.10 astropy==5.3 healpy==1.16.5 matplotlib==3.
 Note on file placement:
 For the code to run correctly, keep Imports_python.py and physics_constants.py in the same folder as the main script Test_Synchrotron.py.
 The project is designed with relative imports (e.g., import Imports_python as imp), so moving files into subfolders will break imports unless you adjust PYTHONPATH.
+
+## 📚 Reference
+
+If you use this repository in your research, please cite:
+
+- V. Shaw et al., *Galactic halo bubble magnetic fields and UHECR deflections*,  
+  MNRAS 517, 2534 (2022)  
