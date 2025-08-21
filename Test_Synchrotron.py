@@ -9,11 +9,10 @@ import Imports_python as imp
 import physics_constants as cons
 from crpropa import *
 import time
-import numpy as np
+# import numpy as np
 import sys
 from numba import jit,vectorize,float64
 import healpy as hp
-import time
 from matplotlib import cm
 from scipy.integrate import quad
 from scipy.special import kv, gamma
