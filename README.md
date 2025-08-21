@@ -59,3 +59,7 @@ conda activate synchrotron
 
 pip install numpy==1.23.5 scipy==1.10 astropy==5.3 healpy==1.16.5 matplotlib==3.7 \
             numba==0.57 emcee==3.1 cmcrameri==1.7 colorcet==3.0 sympy==1.12 tqdm==4.65
+
+Note on file placement:
+For the code to run correctly, keep Imports_python.py and physics_constants.py in the same folder as the main script Test_Synchrotron.py.
+The project is designed with relative imports (e.g., import Imports_python as imp), so moving files into subfolders will break imports unless you adjust PYTHONPATH.
